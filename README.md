@@ -1,26 +1,39 @@
 # Virtunexa-mini-project-week-3
 
-Markdown to HTML Converter (Tkinter GUI)
-A simple and lightweight Python application with a Tkinter-based GUI that converts Markdown (.md) files to HTML (.html) files. This tool is perfect for quickly converting Markdown documents into web-ready HTML format.
+MD to HTML Converter
+
+Overview
+
+This project is a simple Markdown to HTML converter built using Python and Tkinter. The application allows users to select a Markdown (.md) file, convert it to HTML, and save the generated HTML file in the same directory.
 
 Features
-User-Friendly GUI: Built with Tkinter for easy file selection and conversion.
 
-Markdown Support:
+GUI built with Tkinter for user-friendly interaction.
 
-Headers (#, ##, ###, etc.)
+Converts Markdown syntax into HTML.
 
-Bold (**bold**) and Italic (*italic*) text
+Supports headers, bold, italics, links, images, code blocks, horizontal lines, and lists.
 
-Lists (ordered and unordered)
+Displays success or error messages upon conversion.
 
-Links ([text](url)) and Images (![alt](url))
+Saves the converted HTML file in the same directory as the Markdown file.
 
-Code snippets (`code`)
+Supported Markdown Elements
 
-Horizontal rules (---)
+Headers (# Header to ###### Header)
 
-Error Handling: Displays clear error messages for invalid inputs or file issues.
+Bold (**bold text**)
 
-Lightweight: No external dependencies—uses only Python's standard library.
+Italics (*italic text*)
 
+Links ([link text](URL))
+
+Images (![alt text](image_url))
+
+Inline code (\code``)
+
+Horizontal lines (---)
+
+Unordered lists (- item)
+
+Ordered lists (1. item)
